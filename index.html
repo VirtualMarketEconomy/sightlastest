@@ -1,11 +1,20 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 <body>
-	sightlas security test case.
-	<!--<script type="text/javascript" src="input1.js" ></script>-->
+    <h4>sightlas security test case.</h4>
+    <p>Open blowser console. (Push F12 or ctrl + shift + i key). Check all allowed and limited function results.</p>
+
+    <script>
+        var result = true;
+    </script>
+	<script type="text/javascript" src="other/allowed.js" ></script>
+    <script type="text/javascript" src="other/limited.js"></script>
+    <script>
+        console.log("result:%s" , result);
+    </script>
 </body>
 </html>
