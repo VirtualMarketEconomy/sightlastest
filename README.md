@@ -5,7 +5,7 @@
 
 <p>防止すべき危険な処理とは次の通りです。</p>
 
-<h4>止すべき危険な処理：</h4>
+<h4>防止すべき危険な処理：</h4>
 <ul>
 <li>用意されたAPI以外でのajax通信（GET、POST）</li>
 <li>ログアウト、ログインの自動操作</li>
@@ -23,5 +23,6 @@
 <h4>github リポジトリ url:</h4>
 https://github.com/VirtualMarketEconomy/sightlastest.git
 
-
+<h4>sightlas url:</h4>
+https://sightlas.com
 
