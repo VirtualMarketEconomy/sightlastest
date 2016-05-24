@@ -20,6 +20,17 @@
 </ul>
 
 
+<p>sightlasではHTMLなどを操作する関数やプロパティがどのように使われるか監視し、その実行可否を全て制御しています。</p>
+<p>このため、次の分類に従って上記の確認テストを書いていきます。</p>
+
+<ul>
+<li>window、document、dom elementオブジェクトなど全ての関数・プロパティに対して、制御が適切に行われているかのテスト（inspection）</li>
+<li>window、document、dom elementオブジェクトなどに対する監査を外す方法を探すテスト(circumvent)</li>
+<li>sightlasのヘッダーやフッダー、広告枠などの改ざん、ログアウト、ログイン処理呼び出し対策（violation）</li>
+<li>window.alertなど、ブラウザの操作を制限する処理の連続実行（hangup）</li>
+</ul>
+
+
 <h4>github リポジトリ url:</h4>
 https://github.com/VirtualMarketEconomy/sightlastest.git
 
