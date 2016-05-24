@@ -10,9 +10,13 @@
 
     <script>
         var result = true;
+        function error(msg) {
+            result = false;
+            console.error("[test error!]" + msg);
+        }
     </script>
-	<script type="text/javascript" src="other/allowed.js" ></script>
-    <script type="text/javascript" src="other/limited.js"></script>
+    <script type="text/javascript" src="document/limit.js"></script>
+	<script type="text/javascript" src="other/original_access.js" ></script>
     <script>
         console.log("result:%s" , result);
     </script>
