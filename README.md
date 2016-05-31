@@ -15,7 +15,7 @@
 <li>Silverlight、Flash、Java appletなどの実行</li>
 <li>実行ファイルのアップロードやダウンロード</li>
 <li>window.alertなど、ブラウザの操作を制限する処理の連続実行</li>
-<li>sightlasが自動的に付与するHTML（ヘッダーやフッダー、広告枠）の改ざん</li>
+<li>sightlasが自動的に付与するHTML（ヘッダーやフッダーなど）の改ざん</li>
 <li>その他ここに書かれていない危険なコードの全て（可能であればjit sprayingなども対策したい）</li>
 </ul>
 
@@ -26,7 +26,7 @@
 <ul>
 <li>window、document、dom elementなどの監査機能のテスト（inspection）</li>
 <li>監査機能の回避対策テスト(circumvent)</li>
-<li>sightlasのヘッダー・広告枠などの改ざん、ログイン不正呼び出しなどの対策テスト（violation）</li>
+<li>sightlasのヘッダー・フッダーなどの改ざん、ログイン不正呼び出しなどの対策テスト（violation）</li>
 <li>window.alertの無限呼び出しなど、ブラウザ操作不能の対策テスト（hangup）</li>
 </ul>
 
