@@ -1,14 +1,14 @@
 # Sightlas Malicious Code Prevention Test
 	
-<p>This is a test project demonstrating how Sightlas can detect malicious JavaScript code. </p>
-<p>Since any JavaScript can be posted freely in Sightlas, we need a function that restricts any unsecured processes. This is our test case for this function.</p>
+<p>This is a test project to verify Sightlas can detect malicious JavaScript code. </p>
+<p>Since any JavaScript can be posted freely in Sightlas, we need a function that restricts any unsecured processes. This is test case for this function.</p>
 	
 <p>Listed below are the unsecured processes that we should monitor.</p>
 	
 <h4>These unsecured processes should be prevented:</h4>
 <ul>
 <li>AJAX communication (GET/POST) from external API sources</li>
-<li>Logout and Automatic Login</li>
+<li>Automatic Logout and Login</li>
 <li>Communication with other unauthorized domains or sites (including iframe)</li>
 <li>Link to other domains or sites without a confirmation page</li>
 <li>Reading cookies</li>
@@ -20,12 +20,12 @@
 </ul>
 	
 	
-<p>Sightlas monitors how functions and properties that access HTMLs and browser functions are used, and then controls their executability.</p>
+<p>Sightlas monitors how functions and properties that access HTMLs and browser are used, and then controls their executability.</p>
 <p>Therefore, a confirmation test is conducted according to the following classifications:</p>
 	
 <ul>
-<li>Audit functions test for window, document, DOM element, etc. (inspection)</li>
-<li>Preventive measures test for audit function (circumvent)</li>
+<li>Audit functions test for window, document, DOM element, etc. (audit)</li>
+<li>Preventive measures test for audit function circumvent. (circumvent)</li>
 <li>Defensive measures test against falsification of Sightlas header or footer, unauthorized login call, etc. (violation)</li>
 <li>Countermeasures test for browser inoperability, such as infinite window.alert() calls (hangup)</li>
 </ul>
@@ -66,7 +66,7 @@ https://sightlas.com
 <p>このため、次の分類に従って確認テストを行います。</p>
 
 <ul>
-<li>window、document、dom elementなどの監査機能のテスト（inspection）</li>
+<li>window、document、dom elementなどの監査機能のテスト（audit）</li>
 <li>監査機能の回避対策テスト(circumvent)</li>
 <li>sightlasのヘッダー・フッダーなどの改ざん、ログイン不正呼び出しなどの対策テスト（violation）</li>
 <li>window.alertの無限呼び出しなど、ブラウザ操作不能の対策テスト（hangup）</li>
