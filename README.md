@@ -1,7 +1,7 @@
 # Sightlas Malicious Code Prevention Test
 	
-<p>This is a test project to verify Sightlas can detect malicious JavaScript code. </p>
-<p>Since any JavaScript can be posted freely in Sightlas, we need a function that restricts any unsecured processes. This is test case for this function.</p>
+<p>This is a test project to verify how Sightlas can detect malicious JavaScript code. </p>
+<p>Since any JavaScript can be posted freely in Sightlas, we need a function that restricts any unsecured processes. This is the test case for this function.</p>
 	
 <p>Listed below are the unsecured processes that we should monitor.</p>
 	
@@ -25,7 +25,7 @@
 	
 <ul>
 <li>Audit functions test for window, document, DOM element, etc. (audit)</li>
-<li>Preventive measures test for audit function circumvent. (circumvent)</li>
+<li>Preventive measures test to block an attacker's attempt to bypass audit function (circumvent)</li>
 <li>Defensive measures test against falsification of Sightlas header or footer, unauthorized login call, etc. (violation)</li>
 <li>Countermeasures test for browser inoperability, such as infinite window.alert() calls (hangup)</li>
 </ul>
@@ -37,8 +37,7 @@ https://github.com/VirtualMarketEconomy/sightlastest.git
 <h4>Sightlas URL:</h4>
 https://sightlas.com
 
-
-----------------------------------------------------------------------------------------------
+<hr width="90%" />
 
 # sightlas危険コード防止テスト
 
