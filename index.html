@@ -7,21 +7,11 @@
 <body>
     <div id="firstDiv"></div>
     <h4>sightlas security test case.</h4>
-    <p>Open blowser console. (Push F12 or ctrl + shift + i key). Check all allowed and limited function results.</p>
-
-    <script>
-        var result = true;
-        function error(msg) {
-            result = false;
-            console.error("[test error!]" + msg);
-        }
-    </script>
+    <p>Open blowser console for detail. (Push F12 or ctrl + shift + i key)</p>
+    <div id="resultDiv" style="padding:10px;border:1px solid #bbbbbb"></div>
+    <script type="text/javascript" src="common.js"></script>
     <script type="text/javascript" src="audit/document/limit.js"></script>
 	<script type="text/javascript" src="circumvent/window.js" ></script>
     <script type="text/javascript" src="violation/loginlogout.js"></script>
-
-    <script>
-        console.log("result:%s" , result);
-    </script>
 </body>
 </html>

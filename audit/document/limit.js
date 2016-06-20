@@ -1,7 +1,7 @@
 
 try {
     if (document.cookie){
-        error('document cookie');
+        limit("document cookie", false);
     }
 } catch (e) {
 }
