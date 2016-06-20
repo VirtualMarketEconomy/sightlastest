@@ -1,4 +1,4 @@
-﻿//check ways to access original window function(eval).
+﻿//check ways to access original window function (eval).
 
 try {
     eval("error('original window accessed1');");

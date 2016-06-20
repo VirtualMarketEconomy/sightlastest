@@ -1,6 +1,6 @@
 ﻿/*
- *   Currently header tag id is fixed.
- *   So this test case try to get header element.
+ *   Currently id of sightlas header tag is fixed.
+ *   This test case try to get header element.
  */
 //get by tag id.
 try {
@@ -36,7 +36,7 @@ try {
 } catch (e) { }
 
 
-//get from firstdiv(user html written in index.html.)
+//get from firstdiv( user div tag written in index.html ).
 try {
     var firstDiv = document.getElementById("firstDiv");
     if (firstDiv.previousSibling || firstDiv.previousSibling) error("loginlogout error4-1");

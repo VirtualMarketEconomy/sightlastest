@@ -7,7 +7,7 @@
 	
 <h4>These unsecured processes should be prevented:</h4>
 <ul>
-<li>AJAX communication (GET/POST) from external API sources</li>
+<li>AJAX communication (GET/POST) from external Sightlas API sources</li>
 <li>Automatic Logout and Login</li>
 <li>Communication with other unauthorized domains or sites (including iframe)</li>
 <li>Link to other domains or sites without a confirmation page</li>
