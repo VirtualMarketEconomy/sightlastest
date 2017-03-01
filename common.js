@@ -27,12 +27,13 @@ function allowFalse(key) {
 
 
 
-
+var resultDiv;
+var result;
 
 //show result after 1 second.
 setTimeout(function () {
-    var resultDiv = document.getElementById("resultDiv");
-    var result = true;
+    resultDiv = document.getElementById("resultDiv");
+    result = true;
     showResult(limitResult, "[limit failed]");
     showResult(allowResult, "[allow failed]");
     console.log("result: %s", result);
